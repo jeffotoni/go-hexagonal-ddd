@@ -1,0 +1,102 @@
+# ---------------------
+# SISTEMA / AMBIENTE
+# ---------------------
+*.log
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+*.bak
+*.old
+*.orig
+*.rej
+*~
+.~*
+
+# Arquivos de montagem ou swap
+*.lock
+*.pid
+
+# Arquivos de backup do Linux
+*.gz
+*.tar
+*.tgz
+*.zip
+*.rar
+
+# Arquivos de compilação C/C++
+*.out
+*.o
+*.so
+*.a
+*.d
+
+# ---------------------
+# GIT / SUBMODULES
+# ---------------------
+.gitmodules
+.gitignore.local
+
+# ---------------------
+# GO (Golang)
+# ---------------------
+/bin/
+/vendor/
+/coverage.out
+
+# ---------------------
+# NODE (Node.js)
+/node_modules/
+/npm-debug.log
+/yarn-debug.log
+/yarn-error.log
+package-lock.json
+pnpm-lock.yaml
+
+# ---------------------
+# PYTHON
+__pycache__/
+/*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.venv/
+
+# ---------------------
+# DOCKER
+*.tar
+docker-compose.override.yml
+
+# ---------------------
+# EDITORES / IDEs
+# VSCode
+.vscode/
+
+# JetBrains
+.idea/
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# ---------------------
+# TESTES / TEMP
+/tmp/
+/dist/
+/build/
+/coverage/
+/test-results/
+
+# ---------------------
+# SEGURANÇA
+.env
+*.key
+*.crt
+*.pem
+*.cert
+*.enc
+*.jks
+secrets.*
+config-local.*
